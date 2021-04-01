@@ -1,8 +1,8 @@
 {
-  "name": "antd",
-  "version": "4.14.1",
-  "description": "An enterprise-class UI design language and React components implementation",
-  "title": "Ant Design",
+  "name": "4leaf-antd",
+  "version": "1.0.1",
+  "description": "Base code antd https://www.npmjs.com/package/antd",
+  "title": "4Leaf Ant Design ",
   "keywords": [
     "ant",
     "component",
@@ -14,22 +14,18 @@
     "react-component",
     "ui"
   ],
-  "homepage": "https://ant.design",
+  "homepage": "https://github.com/SeoJaeWan/4leaf-antd",
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/SeoJaeWan/4leaf-antd/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/SeoJaeWan/4leaf-antd"
   },
   "license": "MIT",
   "contributors": [
     "ant"
   ],
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ant-design"
-  },
   "files": [
     "dist",
     "lib",
@@ -80,8 +76,6 @@
     "pre-publish": "npm run test-all -- --skip-build",
     "prettier": "prettier -c --write '**/*'",
     "pretty-quick": "pretty-quick",
-    "pub": "npm run version && antd-tools run pub",
-    "prepublishOnly": "antd-tools run guard",
     "site": "cross-env NODE_ICU_DATA=node_modules/full-icu ESBUILD=1 concurrently \"bisheng build --ssr -c ./site/bisheng.config.js\" \"npm run color-less\"",
     "sort": "npx sort-package-json",
     "sort-api": "antd-tools run sort-api-table",

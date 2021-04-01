@@ -25,6 +25,6 @@ const App = () => (
 And import style manually:
 
 ```jsx
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import '4leaf-antd/dist/antd.css'; // or 'antd/dist/antd.less'
 ```
 
